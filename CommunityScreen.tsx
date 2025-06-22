@@ -4,7 +4,7 @@ import { Input } from '../components/ui/Input';
 import { Card, CardHeader, CardContent, CardFooter } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
 import { ArrowLeft, Search, Filter, Star, Heart, MessageCircle, Share, Crown, Zap, Users, TrendingUp, Award, Eye, Bookmark, Play, ChevronDown, Grid3X3, List, SlidersHorizontal, Sparkles, Target, Shield, Rocket, BarChart3, BookOpen, MessageSquare, Verified, Trophy, Flame, Clock, Calendar } from 'lucide-react';
-import { Prompt } from '../types';
+import { Prompt } from '../src/types';
 
 interface CommunityScreenProps {
   onNavigate: (screen: string) => void;

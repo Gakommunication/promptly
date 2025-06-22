@@ -3,7 +3,7 @@ import { Button } from '../components/ui/Button';
 import { Card, CardHeader, CardContent, CardFooter } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
 import { Plus, Library, Mail, FileText, Users, Zap, TrendingUp, Clock, Sparkles, ArrowRight, Star, Play, Crown, BarChart3, Target, Layers, Bot, Wand2, Database, ChevronRight, Activity, Award, Briefcase, Settings, Bell, Search, Filter, Grid3X3, List, Eye, Heart, Bookmark, Share2, Download, Copy, Edit3, Trash2, MoreHorizontal, Calendar, User, MessageCircle, Globe, Shield, Rocket, Lightbulb, Cpu, Palette, Code, Headphones, Command, Mic, Maximize2, Minimize2, RotateCcw, Repeat, Workflow, Layers3, Boxes, Gauge, Compass, Flame, Gem, Hexagon, Infinity, Orbit, Radar, Sparkle, Waves, Wind } from 'lucide-react';
-import { User as UserType, Prompt } from '../types';
+import { User as UserType, Prompt } from '../src/types';
 
 interface HomeScreenProps {
   user: UserType;

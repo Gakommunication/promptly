@@ -4,7 +4,7 @@ import { Input } from '../components/ui/Input';
 import { Card, CardHeader, CardContent, CardFooter } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
 import { ArrowLeft, Save, Play, Zap, AlertCircle, Globe, Lock, Crown } from 'lucide-react';
-import { Variable, User } from '../types';
+import { Variable, User } from '../src/types';
 
 interface CreatePromptScreenProps {
   onNavigate: (screen: string) => void;

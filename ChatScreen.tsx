@@ -3,7 +3,7 @@ import { Button } from '../components/ui/Button';
 import { Card, CardHeader, CardContent } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
 import { ArrowLeft, Send, Mic, MicOff, Copy, Download, FileText, Save, Star, Plus, Sparkles, Bot, User, Crown, Zap, MessageSquare, Folder, ChevronRight, Search, Filter, Play, Pause, Volume2, MoreHorizontal, Trash2, Edit3, Share2, BookOpen, Target, Shield, Rocket, BarChart3, Users, Mail, Calendar, Briefcase, Settings, Clock, CheckCircle, AlertCircle, Loader, ChevronLeft, Grid3X3, List, SlidersHorizontal, Workflow, Layers, Database, Command, Maximize2, Minimize2 } from 'lucide-react';
-import { User as UserType } from '../types';
+import { User as UserType } from '../src/types';
 
 interface ChatScreenProps {
   user: UserType;

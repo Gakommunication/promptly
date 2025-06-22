@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
-import { Prompt } from '../types';
+import { Prompt } from '../src/types';
 
 interface Flow {
   id: string;
