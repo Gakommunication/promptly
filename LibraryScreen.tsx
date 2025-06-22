@@ -4,7 +4,7 @@ import { Input } from '../components/ui/Input';
 import { Card, CardHeader, CardContent } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
 import { Search, Filter, Plus, Star, Users, ArrowLeft, Grid3X3, List, SlidersHorizontal, Sparkles, Clock, TrendingUp, Award, Zap, Target, Briefcase, MessageSquare, BarChart3, BookOpen, Lightbulb, Rocket, Shield, Heart, Eye, Play, ChevronRight, User, Crown } from 'lucide-react';
-import { Prompt, User as UserType } from '../types';
+import { Prompt, User as UserType } from '../src/types';
 
 interface LibraryScreenProps {
   user: UserType;

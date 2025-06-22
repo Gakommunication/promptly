@@ -9,7 +9,7 @@ import { CommunityScreen } from './screens/CommunityScreen';
 import { AccountScreen } from './screens/AccountScreen';
 import { ChatScreen } from './screens/ChatScreen';
 import { AuthModal } from './components/auth/AuthModal';
-import { AppState, JobDetection, Prompt } from './types';
+import { AppState, JobDetection, Prompt } from './src/types';
 import { useAuth } from './hooks/useAuth';
 
 interface OnboardingData {

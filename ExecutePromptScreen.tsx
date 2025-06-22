@@ -4,7 +4,7 @@ import { Input } from '../components/ui/Input';
 import { Card, CardHeader, CardContent, CardFooter } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
 import { ArrowLeft, Play, Copy, Download, FileText, Save, CheckCircle } from 'lucide-react';
-import { Prompt, Variable } from '../types';
+import { Prompt, Variable } from '../src/types';
 
 interface ExecutePromptScreenProps {
   prompt?: Prompt;

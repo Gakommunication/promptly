@@ -4,7 +4,7 @@ import { Input } from '../components/ui/Input';
 import { Card, CardHeader, CardContent, CardFooter } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
 import { ArrowLeft, User, Crown, Zap, CreditCard, Check, Settings, BarChart3, Sparkles, Shield, Clock, TrendingUp, Award, Target, Rocket, Star, CheckCircle, AlertCircle, Calendar, Mail, Briefcase, Edit3, Save, X } from 'lucide-react';
-import { User as UserType } from '../types';
+import { User as UserType } from '../src/types';
 
 interface AccountScreenProps {
   user: UserType;
